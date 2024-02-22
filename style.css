@@ -1,0 +1,27 @@
+body {
+    box-sizing: border-box;
+    height: 100vh;
+    background-color: black;
+    color: #F6F6F6;
+}
+
+.visual {
+    display: flex;
+    flex-direction: column;
+    margin: 400px;
+    margin-top: 0;
+}
+
+.visual__subtitulo {
+    color: #22D4FD;
+}
+
+.visual__subtitulo__links {
+    display: flex;
+    flex-direction: column;
+}
+
+.visual__subtitulo__links__link {
+    text-decoration: none;
+    color: #F6F6F6;
+}
